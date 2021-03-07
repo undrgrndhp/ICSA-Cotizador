@@ -28,3 +28,4 @@ Este proyecto es un cotizador de prueba para probar mis habilidades de Html, Jav
 
 12.- Nombre del vendedor, con registor de ventas, porcentaje de comision y base de datos
 
+La base de datos esta en cuestión, no se si utilizar mySQL(Requiere instalacion en el servidor), Microsfot SQL server (requiere instalacion en el servidor), NeDB(tambien requiere instalacion pero es open source y no pesa nada) o directamente en en la página web. Me preocupa que NeDB no pueda manejar cantidades muy grandes de datos comparado con MYSQL y MSQLS. El incluir la base de datos dentro de la pagina tiene el riesgo de la autenticación, quien tenga acceso a la pagina podra ver los datos de las bases, habría que crear un sistema de credenciales seguro y cuidar mucho la informacion.
