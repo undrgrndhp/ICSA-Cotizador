@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Adrian",
+        "lastName": "Cortes",
+        "commission": 100
+    },
+    {
+        "firstName": "Omar",
+        "lastName": "Cortes",
+        "commission": 5
+    },
+    {
+        "firstName": "Viridiana",
+        "lastName": "Hernandez",
+        "commmission": 5   
+    }
+]
