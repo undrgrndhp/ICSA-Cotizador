@@ -1,0 +1,13 @@
+display: flex;
+h1 {
+font-family: "cambria";
+font-size:6vw;
+text-align: inherit;
+}
+body{
+    background : linear-gradient(to right, #005C97, #363795);
+    font-family:"helvetica";
+    font-size:3vw;
+    text-align:center ;
+
+    }
