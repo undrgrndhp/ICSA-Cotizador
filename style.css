@@ -1,12 +1,26 @@
 *{
+    /* background-image: linear-gradient(to bottom left, hsl(203, 50%, 56%), #953636); */
     box-sizing: border-box;
 }
 
+#bkg {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 body{
-    height: 100vh;
-    width: 100vw;
-    background : linear-gradient(to bottom left, #005C97, #363795);
-    text-align:center ;
+    height:100%, 100%;
+
+    text-align: center ;
 
     }
 
@@ -17,10 +31,23 @@ body{
         }
 
     p {
-        font-size:clamp(16px, 3vmin, 8vmin);
+        font-size: clamp(16px, 3vmin, 8vmin);
         text-align: inherit;
         font-family: "helvetica";
     }
+    
     table {
         padding: clamp(16px, 3vmin, 8vmin);
+        background : linear-gradient(to bottom left, #005C97, #363795);
+        border-radius: 10px;
+        border-collapse: collapse;
+        font-family:Georgia, 'Times New Roman', Times, serif
     }
+
+        .headerrow{
+            background : linear-gradient(-68deg, #8fa8b8, #363795);
+        }
+        .datarow{
+            background : linear-gradient(-68deg, #b6215a, #363795);
+        }
+

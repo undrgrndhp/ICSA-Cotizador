@@ -13,29 +13,34 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <h1>ICSA</h1>
-        <p>Hola a todos ¿Que tan legible está esta letra?</p>
-        <table>
-            <tr>
-                <th>Partida</th>
-                <th>Cantidad</th>
-                <th>No. de Parte</th>
-                <th>Descripción</th>
-                <th>Precio Unitario (USD)</th>
-                <th>Monto Total (USD)</th>
-                <th>Tiempo de entrega</th>
-            </tr>
+        <div id="bkg">
+            <h1>ICSA</h1>
+            <p>Hola a todos ¿Que tan legible está esta letra?</p>
+            <!-- Agrega capacidad de scroll para la tabla en pantallasl pequeñas-->
+            <div style="overflow:auto;" >
+                <table>
+                    <tr class=headerrow>
+                        <th>Partida</th>
+                        <th>Cantidad</th>
+                        <th>No. de Parte</th>
+                        <th>Descripción</th>
+                        <th>Precio Unitario (USD)</th>
+                        <th>Monto Total (USD)</th>
+                        <th>Tiempo de entrega</th>
+                    </tr>
 
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-        </table>
-        <script src="script.js"></script>
+                    <tr class=datarow>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+            <script src="script.js"></script>
+        </div>
     </body>
 </html>
