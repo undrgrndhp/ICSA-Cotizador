@@ -1,5 +1,7 @@
-[
-    {
+
+{
+    "products":[
+        {
         "sku": "123456789",
         "partNumber": "TEC1-12706",
         "brand": "Tecneu",
@@ -11,5 +13,7 @@
         "measurements": "12V 150W, 2'",
         "price": 800,
         "lastPriceUpdate": "09/03/21"
-    }
-]
+        }
+    ]
+
+}

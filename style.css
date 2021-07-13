@@ -10,8 +10,7 @@
     --primaryColorText: black;
     --primaryColorText: orange;
     --primaryColorText: white;
-
-    --titleFont: 'Roboto', sans-serif;
+    --titleFont: 'Noto Sans JP', sans-serif;
 }
 
 html { 
@@ -23,6 +22,7 @@ html {
   }
 
 body{
+
     text-align: center;
     padding: 3rem;
 
